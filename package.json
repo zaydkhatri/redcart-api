@@ -1,0 +1,29 @@
+{
+  "name": "OSP",
+  "version": "1.0.0",
+  "description": "A E-commerce website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "osp": "nodemon app.js",
+    "render-postbuild": "NPM_CONFIG_PRODUCTION=false  npm install --prefix client && npm run build --prefix client"
+  },
+
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "braintree": "^3.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.4",
+    "npm": "^9.4.2",
+    "uuid": "^9.0.0"
+  }
+}
